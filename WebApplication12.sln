@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication12", "WebApplication12\WebApplication12.csproj", "{E54AD9ED-9254-4489-83ED-6BD9EFEE842B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{4F8A3924-C432-4131-9C2C-53C876887BB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{937C9FA6-C81F-4E59-9198-F407F3EA501F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{09AE15B2-732D-473E-993B-3EB6EDA8861F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\WebApplication12.json = PublishScripts\Templates\WebApplication12.json
+		PublishScripts\Templates\WebApplication12.param.dev.json = PublishScripts\Templates\WebApplication12.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E54AD9ED-9254-4489-83ED-6BD9EFEE842B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54AD9ED-9254-4489-83ED-6BD9EFEE842B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54AD9ED-9254-4489-83ED-6BD9EFEE842B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54AD9ED-9254-4489-83ED-6BD9EFEE842B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{937C9FA6-C81F-4E59-9198-F407F3EA501F} = {4F8A3924-C432-4131-9C2C-53C876887BB8}
+		{09AE15B2-732D-473E-993B-3EB6EDA8861F} = {4F8A3924-C432-4131-9C2C-53C876887BB8}
+	EndGlobalSection
+EndGlobal
